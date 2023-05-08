@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Happy Birthday Simran!</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/b2c716d85a.js" crossorigin="anonymous"></script>
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Javascript Links -->
+  <script type="text/javascript" src="first.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Body -->
+
+  <div class="container">
+
+    <!-- Header Section -->
+
+    <section id="header">
+      <h1>Happy Birthday Simran</h1>
+      <p id="result"></p>
+    </section>
+
+    <!-- Main Section -->
+
+    <section id="main">
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 box">
+          <h2>1st Lock</h2>
+
+            <div class="lock-block glow-1">
+              <img src="lock1.png" id="lock1" alt="lock1">
+            </div>
+
+          <a href="#"><button class="hint-btn" type="button" name="button">HINT</button></a>
+
+          <div class="userInput">
+            <input class="col-lg-2 col-md-2" type="text" id="otp1" placeholder="__"  maxlength="1" onkeyup="validateOtp(this)">
+            <input class="col-lg-2 col-md-2" type="text" id="otp2" placeholder="__"  maxlength="1" onkeyup="validateOtp(this)">
+            <input class="col-lg-2 col-md-2" type="text" id="otp3" placeholder="__"  maxlength="1" onkeyup="validateOtp(this)">
+            <input class="col-lg-2 col-md-2" type="text" id="otp4" placeholder="__" maxlength="1" onkeyup="validateOtp(this)">
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 box">
+          <h2>2nd Lock</h2>
+
+            <div class="lock-block glow-2">
+              <img src="lock1.png" id="lock2" alt="lock2">
+            </div>
+
+          <a href="#"><button class="hint-btn" type="button" name="button">HINT</button></a>
+
+          <div class="userInput">
+            <input class="col-lg-2 col-md-2" type="text" id="otpi" placeholder="__"  maxlength="1" onkeyup="validateOtpii(this)">
+            <input class="col-lg-2 col-md-2" type="text" id="otpii" placeholder="__"  maxlength="1"onkeyup="validateOtpii(this)">
+            <input class="col-lg-2 col-md-2" type="text" id="otpiii" placeholder="__"  maxlength="1" onkeyup="validateOtpii(this)">
+            <input class="col-lg-2 col-md-2" type="text" id="otpiv" placeholder="__"  maxlength="1" onkeyup="validateOtpii(this)">
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 box">
+          <h2>3rd Lock</h2>
+
+            <div class="lock-block glow-3">
+              <img src="lock1.png" id="lock3" alt="lock3">
+            </div>
+
+          <a href="#"><button class="hint-btn" type="button" name="button">HINT</button></a>
+
+          <div class="userInput">
+            <input class="col-lg-2 col-md-2" type="text" id="first" placeholder="__" onkeyup="validateOtpiii(this)"maxlength="1">
+            <input class="col-lg-2 col-md-2" type="text" id="second" placeholder="__" onkeyup="validateOtpiii(this)" maxlength="1">
+            <input class="col-lg-2 col-md-2" type="text" id="third" placeholder="__" onkeyup="validateOtpiii(this)" maxlength="1">
+            <input class="col-lg-2 col-md-2" type="text" id="fourth" placeholder="__" onkeyup="validateOtpiii(this)" maxlength="1">
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </div>
+
+</body>
+
+</html>
