@@ -46,7 +46,7 @@ function validateOtp(input) {
 
 
         setTimeout(function() {
-          window.location.href = "https://www.google.com/";
+          window.location.href = "https://youtu.be/5GGXsIdXdiE";
         }, 1000); // wait for 1000 milliseconds (1 seconds) before opening the website
       } else {
         // OTP is invalid
@@ -76,7 +76,7 @@ function validateOtpii(input) {
   if (otpiv.length === 1) {
     const otpsecond = otpi + otpii + otpiii + otpiv;
 
-    if (otpsecond === "1234") {
+    if (otpsecond === "3101") {
       // OTP is valid
       console.log("OTP is valid");
 
@@ -91,7 +91,7 @@ function validateOtpii(input) {
 
 
       setTimeout(function() {
-        window.location.href = "https://www.linkedIn.com/";
+        window.location.href = "https://youtu.be/__ZvXBf1rmw";
       }, 1000); // wait for 1000 milliseconds (1 seconds) before opening the website
     } else {
       // OTP is invalid
@@ -122,7 +122,7 @@ function validateOtpiii(input) {
   if (otpiv.length === 1) {
     const otpthird = otpi + otpii + otpiii + otpiv;
 
-    if (otpthird === "0000") {
+    if (otpthird === "0412") {
       // OTP is valid
       console.log("OTP is valid");
 
@@ -137,7 +137,7 @@ function validateOtpiii(input) {
 
 
       setTimeout(function() {
-        window.location.href = "https://www.facebook.com/";
+        window.location.href = "https://drive.google.com/drive/folders/1tNa9I8WGKodXNchnKSHlPMieZVdBO2x1?usp=share_link";
       }, 1000); // wait for 1000 milliseconds (1 seconds) before opening the website
     } else {
       // OTP is invalid
